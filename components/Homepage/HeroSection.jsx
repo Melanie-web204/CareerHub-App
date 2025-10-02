@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
    <div    
       id="home"
-      className="bg-[url('/hero.png')] h-screen relative w-full bg-cover mt-[-70px]">
+      className="bg-[url('/hero.png')] h-screen relative w-full bg-cover mt-[-70px] font-inter">
 
         <div
          className="flex flex-col h-full items-center justify-center pt-[80px] gap-20 w-[90%]

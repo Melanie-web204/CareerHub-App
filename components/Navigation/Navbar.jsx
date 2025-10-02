@@ -19,8 +19,8 @@ const Navbar = () => {
     <nav className="py-5 bg-transparent relative top-0 z-10 w-full">
         <div className="max-w-[1450px] w-[90%] mx-auto flex justify-between items-center">
            <Link href={"/"}>
-           <div className="flex items-center gap-1">
-            <h1 className="text-black font-semibold uppercase text-xl">TalentCove</h1>
+           <div className="flex items-center gap-1 ">
+            <h1 className=" text-black font-semibold uppercase text-xl font-slab" >CareerHub</h1>
 
             <MdAdsClick
             className="text-purple-600 text-3xl" />
