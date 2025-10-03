@@ -1,4 +1,4 @@
-
+import Button from "@/ui/Buttons"
 
 const HeroSection = () => {
   return (
@@ -22,7 +22,8 @@ const HeroSection = () => {
                     your journey toward success today.</div>
                  </span>
                  </div>
-                 SearchJob
+
+                 <Button>Search jobs</Button>
 
         </div>
       </div>

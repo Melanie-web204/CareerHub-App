@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Career Hub",
+  title: "CareerHub",
   description: "Discover and Hire Top Talent Effortlessly",
 };
 
