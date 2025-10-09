@@ -1,10 +1,11 @@
+import React from 'react';
 
-const Maxwidthcontainer = () => {
+const MaxWidthContainer = ({ children }) => {
   return (
-    <div>
-      
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {children}
     </div>
   );
 };
 
-export default Maxwidthcontainer
+export default MaxWidthContainer;

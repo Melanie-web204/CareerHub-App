@@ -4,8 +4,6 @@ import React, { forwardRef } from "react";
 import PropTypes from 'prop-types';
 
 
-// Use forwardRef to pass the ref from the parent component to the button element.
-// Button: Adds role and aria-pressed for accessibility
 const Button = forwardRef(
   (
     {
@@ -26,10 +24,10 @@ const Button = forwardRef(
         role="button"
         aria-pressed={ariaPressed}
         className={`
-        px-8 py-3 rounded-xl bg-purple-500 border border-white
+        px-8 py-2 rounded-xl bg-purple-500 
         text-white font-semibold backdrop-blur-md
         transition-all duration-300 ease-in-out
-        hover:scale-105
+        hover:scale-105 i
         focus:outline-none
         ${className}
       `}

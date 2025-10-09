@@ -1,16 +1,14 @@
 'use client';
 
-import guides from '../data/guides';
+import guides from "../data/guides";
 
 export default function HowItWorks() {
   return (
-    <section className="relative py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 bg-black overflow-hidden">
-      {/* Responsive Title */}
+    <section className="relative py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 bg-gray-900 overflow-hidden">
       <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white text-center mb-8 sm:mb-14">
-        How <span className="text-[#1E90FF]">CareerHub</span> Works
+        How <span className="text-purple-500">CareerHub</span> Works
       </h2>
 
-      {/* Responsive Steps Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 max-w-7xl mx-auto">
         {guides.map(({ title, description, icon: Icon }, i) => (
           <div
@@ -20,7 +18,7 @@ export default function HowItWorks() {
           >
             <div
               className="flex items-center justify-center w-16 h-16 mx-auto mb-6 
-                           rounded-full bg-[#1E90FF]/10 border border-[#1E90FF]/20 text-[#1E90FF]"
+                           rounded-full bg-[#1E90FF]/10 border border-[#1E90FF]/20 text-white"
             >
               <Icon size={32} />
             </div>

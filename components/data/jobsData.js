@@ -1,4 +1,4 @@
-// src/data/jobsData.js
+
 
 export const categories = [
   "All",
@@ -10,7 +10,9 @@ export const categories = [
 ];
 
 export const jobs = [
+  // ===================================
   // Technology (1 - 10)
+  // ===================================
   {
     id: 1,
     title: "Frontend Developer (React/Next.js)",
@@ -18,7 +20,7 @@ export const jobs = [
     location: "Lagos",
     shortDesc: "Build responsive UIs with React, Next.js and TailwindCSS.",
     jobType: "Full-time",
-  pay: "300,000 / month",
+    pay: "300,000 / month",
     longDesc: {
       responsibilities: [
         "Implement responsive user interfaces using React and Next.js.",
@@ -41,58 +43,30 @@ export const jobs = [
   },
   {
     id: 2,
-    title: "Backend Engineer (Node.js)",
+    title: "Senior Backend Engineer (Node.js/TypeScript)",
     category: "Technology",
-    location: "Remote",
-    shortDesc: "Design and build scalable server-side APIs with Node.js.",
+    location: "Remote (Nigeria)",
+    shortDesc: "Design and maintain scalable server-side applications.",
     jobType: "Full-time",
-  pay: "350,000 / month",
+    pay: "750,000 / month",
     longDesc: {
-      responsibilities: [
-        "Build RESTful and GraphQL APIs using Node.js and Express.",
-        "Design and maintain databases (SQL/NoSQL).",
-        "Ensure authentication, authorization and security practices.",
-        "Collaborate with frontend and DevOps teams for deployments."
-      ],
-      requirements: [
-        "3+ years in backend development with Node.js",
-        "Experience with PostgreSQL, MongoDB or MySQL",
-        "Understanding of authentication and security best practices",
-        "Familiarity with cloud platforms (AWS/GCP/Azure)"
-      ],
-      benefits: [
-        "Remote-first culture",
-        "Health allowance",
-        "Paid time off"
-      ]
+      responsibilities: ["Develop robust APIs and microservices.", "Manage MongoDB and PostgreSQL databases.", "Implement CI/CD pipelines using Docker and Kubernetes."],
+      requirements: ["5+ years with Node.js/TypeScript", "Expertise in cloud services (AWS/Azure).", "Strong database schema design skills."],
+      benefits: ["Annual performance bonus", "Full remote setup allowance", "Premium health insurance"]
     }
   },
   {
     id: 3,
-    title: "Full-Stack Developer (JavaScript)",
+    title: "DevOps Engineer",
     category: "Technology",
-    location: "Lagos / Hybrid",
-    shortDesc: "Work across frontend and backend to deliver end-to-end features.",
+    location: "Abuja",
+    shortDesc: "Automate infrastructure and streamline deployment processes.",
     jobType: "Full-time",
-  pay: "400,000 / month",
+    pay: "600,000 / month",
     longDesc: {
-      responsibilities: [
-        "Develop frontend features with React and backend services with Node.js.",
-        "Build API integrations and manage data models.",
-        "Ship and maintain production code and run deployments.",
-        "Participate in design and code reviews."
-      ],
-      requirements: [
-        "Solid understanding of JavaScript (ES6+)",
-        "Experience with React and Node.js",
-        "Comfort with SQL/NoSQL databases",
-        "Familiarity with CI/CD and cloud deployments"
-      ],
-      benefits: [
-        "Stock options (where applicable)",
-        "Career growth opportunities",
-        "Flexible schedule"
-      ]
+      responsibilities: ["Maintain cloud infrastructure (Terraform/Ansible).", "Manage CI/CD systems (Jenkins/GitLab CI).", "Monitor system health and security."],
+      requirements: ["3+ years of DevOps experience", "Proficiency in Linux/Bash scripting", "Experience with AWS/GCP and Docker/K8s."],
+      benefits: ["Professional certification reimbursement", "Unlimited vacation policy", "Bi-weekly team lunches"]
     }
   },
   {
@@ -100,1325 +74,669 @@ export const jobs = [
     title: "UI/UX Designer",
     category: "Technology",
     location: "Lagos",
-    shortDesc: "Design intuitive, accessible interfaces and prototypes.",
+    shortDesc: "Create user-centered designs for web and mobile applications.",
     jobType: "Full-time",
-  pay: "250,000 / month",
+    pay: "250,000 / month",
     longDesc: {
-      responsibilities: [
-        "Create wireframes, high-fidelity mockups and prototypes.",
-        "Conduct user research and usability testing.",
-        "Collaborate with engineers to ensure design fidelity.",
-        "Maintain and evolve the design system."
-      ],
-      requirements: [
-        "Portfolio with production design work",
-        "Proficiency in Figma, Sketch or Adobe XD",
-        "Knowledge of accessibility and interaction design",
-        "Good communication and collaboration skills"
-      ],
-      benefits: [
-        "Design tool subscriptions",
-        "Mentorship and workshops",
-        "Flexible working arrangement"
-      ]
+      responsibilities: ["Conduct user research and usability testing.", "Create wireframes, prototypes, and high-fidelity designs.", "Maintain design systems and libraries."],
+      requirements: ["3+ years in UI/UX design.", "Expertise in Figma or Sketch.", "Strong portfolio demonstrating design process."],
+      benefits: ["Ergonomic office setup", "Annual design conference budget", "Flexible schedule"]
     }
   },
   {
     id: 5,
-    title: "Cloud Engineer (AWS/Azure)",
+    title: "Data Analyst",
     category: "Technology",
-    location: "Remote",
-    shortDesc: "Manage cloud infrastructure, automation and reliability.",
+    location: "Remote (Global)",
+    shortDesc: "Analyze complex datasets to provide actionable business insights.",
     jobType: "Full-time",
-  pay: "450,000 / month",
+    pay: "450,000 / month",
     longDesc: {
-      responsibilities: [
-        "Design and operate scalable cloud infrastructure.",
-        "Automate deployments using IaC (Terraform/CloudFormation).",
-        "Ensure security, monitoring and backup strategies.",
-        "Collaborate with teams for production reliability."
-      ],
-      requirements: [
-        "Experience with AWS, Azure or GCP",
-        "Knowledge of Docker and Kubernetes",
-        "Familiarity with monitoring and logging tools",
-        "Scripting skills (Bash, Python, etc.)"
-      ],
-      benefits: [
-        "Certification support",
-        "Remote-friendly work",
-        "Competitive compensation"
-      ]
+      responsibilities: ["Develop and maintain reporting dashboards (Tableau/Power BI).", "Write complex SQL queries for data extraction.", "Identify trends and patterns in customer behavior."],
+      requirements: ["2+ years in data analysis.", "Advanced SQL and Excel skills.", "Experience with Python/R is a plus."],
+      benefits: ["Remote-first culture", "Performance bonuses", "Subscription to data science platforms"]
     }
   },
   {
     id: 6,
-    title: "Mobile App Developer (React Native)",
+    title: "Mobile App Developer (Flutter)",
     category: "Technology",
-    location: "Lagos / Remote",
-    shortDesc: "Build cross-platform mobile apps using React Native.",
+    location: "Ibadan",
+    shortDesc: "Develop cross-platform mobile applications using Flutter/Dart.",
     jobType: "Full-time",
-  pay: "350,000 / month",
+    pay: "320,000 / month",
     longDesc: {
-      responsibilities: [
-        "Develop and maintain mobile applications with React Native.",
-        "Integrate mobile apps with backend APIs and services.",
-        "Optimize app performance and battery usage.",
-        "Publish and maintain releases on App Store and Play Store."
-      ],
-      requirements: [
-        "Experience with React Native or native mobile frameworks",
-        "Strong JavaScript skills",
-        "Understanding of app deployment processes",
-        "Knowledge of mobile UX patterns"
-      ],
-      benefits: [
-        "Mobile device stipend",
-        "Flexible remote options",
-        "Health allowance"
-      ]
+      responsibilities: ["Build and deploy mobile apps for iOS and Android.", "Integrate with REST APIs.", "Ensure code quality and test coverage."],
+      requirements: ["2+ years of Flutter/Dart experience.", "Familiarity with native platform APIs.", "Knowledge of state management solutions."],
+      benefits: ["Equity options", "Gym membership allowance", "On-site cafeteria"]
     }
   },
   {
     id: 7,
-    title: "QA Tester / Automation Engineer",
+    title: "Cybersecurity Analyst",
     category: "Technology",
-    location: "Lagos",
-    shortDesc: "Ensure software quality with manual and automated testing.",
+    location: "Port Harcourt",
+    shortDesc: "Monitor systems and protect against security threats.",
     jobType: "Full-time",
-  pay: "220,000 / month",
+    pay: "550,000 / month",
     longDesc: {
-      responsibilities: [
-        "Write and execute test plans and test cases.",
-        "Implement automated tests using tools like Cypress or Jest.",
-        "Report, track and verify defects.",
-        "Collaborate in agile teams to ensure delivery quality."
-      ],
-      requirements: [
-        "Experience in manual and automated testing",
-        "Familiarity with testing frameworks (Cypress, Jest, Selenium)",
-        "Attention to detail and clear reporting skills",
-        "Experience with CI integration is a plus"
-      ],
-      benefits: [
-        "Testing tools access",
-        "Training opportunities",
-        "Paid leave"
-      ]
+      responsibilities: ["Perform vulnerability assessments and penetration testing.", "Respond to security incidents.", "Ensure compliance with data protection laws."],
+      requirements: ["Relevant security certifications (e.g., CISSP, CompTIA Security+).", "3+ years in cybersecurity.", "Knowledge of network security protocols."],
+      benefits: ["Specialized training budget", "Generous paid time off", "Relocation assistance"]
     }
   },
   {
     id: 8,
-    title: "DevOps Engineer",
+    title: "Machine Learning Engineer",
     category: "Technology",
-    location: "Remote",
-    shortDesc: "Automate deployments and maintain CI/CD pipelines.",
+    location: "Remote (Global)",
+    shortDesc: "Develop and deploy scalable AI/ML models.",
     jobType: "Full-time",
-  pay: "400,000 / month",
+    pay: "900,000 / month",
     longDesc: {
-      responsibilities: [
-        "Build and maintain CI/CD pipelines and release processes.",
-        "Manage containerized deployments using Docker/Kubernetes.",
-        "Implement monitoring, alerting and incident response.",
-        "Automate infrastructure and configuration management."
-      ],
-      requirements: [
-        "Experience with Jenkins, GitHub Actions or GitLab CI",
-        "Knowledge of container orchestration",
-        "Scripting experience (Bash/Python)",
-        "Strong troubleshooting skills"
-      ],
-      benefits: [
-        "Remote work",
-        "Certification reimbursement",
-        "Flexible hours"
-      ]
+      responsibilities: ["Design and train predictive models.", "Integrate models into production systems.", "Optimize model performance and efficiency."],
+      requirements: ["PhD or Master's in a related field.", "Expertise in Python, TensorFlow/PyTorch.", "Experience with cloud ML platforms."],
+      benefits: ["High-impact research projects", "Competitive stock options", "Flexible global working hours"]
     }
   },
   {
     id: 9,
-    title: "Data Analyst",
+    title: "QA Engineer (Automation)",
     category: "Technology",
-    location: "Lagos / Remote",
-    shortDesc: "Turn data into insights and business decisions.",
+    location: "Lagos",
+    shortDesc: "Build and maintain automated test suites for web applications.",
     jobType: "Full-time",
-  pay: "300,000 / month",
+    pay: "280,000 / month",
     longDesc: {
-      responsibilities: [
-        "Collect, clean and analyze datasets.",
-        "Build dashboards and reports to inform stakeholders.",
-        "Identify trends and present actionable insights.",
-        "Collaborate with product and business teams."
-      ],
-      requirements: [
-        "Proficiency in SQL and Excel",
-        "Experience with visualization tools (Tableau/Power BI)",
-        "Basic knowledge of Python or R",
-        "Strong analytical and communication skills"
-      ],
-      benefits: [
-        "Learning budget",
-        "Health allowance",
-        "Flexible work"
-      ]
+      responsibilities: ["Develop test plans and test cases.", "Implement automated tests (Cypress/Selenium).", "Work closely with development teams."],
+      requirements: ["2+ years in QA automation.", "Experience with JavaScript or Python.", "Familiarity with bug tracking tools (Jira)."],
+      benefits: ["Bonus for finding critical bugs", "Team retreats", "Mentorship program"]
     }
   },
   {
     id: 10,
-    title: "Cybersecurity Specialist",
+    title: "IT Support Specialist",
     category: "Technology",
-    location: "Remote",
-    shortDesc: "Protect systems and networks from security threats.",
+    location: "Enugu",
+    shortDesc: "Provide technical assistance and support to internal staff.",
     jobType: "Full-time",
-  pay: "450,000 / month",
+    pay: "180,000 / month",
     longDesc: {
-      responsibilities: [
-        "Monitor networks and systems for vulnerabilities.",
-        "Implement security controls and incident response.",
-        "Conduct penetration tests and security assessments.",
-        "Educate team members about security best practices."
-      ],
-      requirements: [
-        "Experience in network and application security",
-        "Familiarity with security tools (Wireshark, IDS, SIEM)",
-        "Certifications (Security+, CEH) are a plus",
-        "Strong analytical skills"
-      ],
-      benefits: [
-        "Security training allowance",
-        "Remote work options",
-        "Competitive pay"
-      ]
+      responsibilities: ["Troubleshoot hardware and software issues.", "Manage user accounts and access.", "Provide basic network support."],
+      requirements: ["CompTIA A+ or equivalent certification.", "Excellent communication skills.", "Experience with Windows and macOS."],
+      benefits: ["Career growth path to SysAdmin", "Subsidized lunch", "Company paid certifications"]
     }
   },
-
-  // Business & Management (11 - 20)
+  // ===================================
+  // Business (11 - 20)
+  // ===================================
   {
     id: 11,
-    title: "Project Manager",
+    title: "Product Manager",
     category: "Business",
     location: "Lagos",
-    shortDesc: "Lead project delivery, timelines and cross-functional teams.",
+    shortDesc: "Define and execute the roadmap for our flagship product.",
     jobType: "Full-time",
-  pay: "300,000 / month",
+    pay: "480,000 / month",
     longDesc: {
-      responsibilities: [
-        "Plan and oversee project execution and delivery.",
-        "Coordinate across teams and manage stakeholder expectations.",
-        "Track progress, budgets, and mitigate risks.",
-        "Maintain project documentation and perform retrospectives."
-      ],
-      requirements: [
-        "Experience managing software or business projects",
-        "Familiarity with Agile frameworks (Scrum/Kanban)",
-        "Strong organizational and communication skills",
-        "Experience with tools like Jira or Trello"
-      ],
-      benefits: [
-        "Professional development",
-        "Performance bonuses",
-        "Flexible work schedule"
-      ]
+      responsibilities: ["Gather and prioritize product requirements.", "Work with engineering and design teams.", "Define KPIs and track product success."],
+      requirements: ["4+ years in Product Management.", "Experience with Agile methodologies.", "Strong analytical and communication skills."],
+      benefits: ["Quarterly bonuses", "Flexible PTO", "Annual international travel budget"]
     }
   },
   {
     id: 12,
-    title: "Business Analyst",
+    title: "Marketing Specialist (SEO/Content)",
     category: "Business",
-    location: "Lagos",
-    shortDesc: "Analyze business processes and translate needs to product teams.",
+    location: "Remote (Nigeria)",
+    shortDesc: "Drive organic traffic and grow our content marketing channels.",
     jobType: "Full-time",
-  pay: "250,000 / month",
+    pay: "270,000 / month",
     longDesc: {
-      responsibilities: [
-        "Gather and document business requirements.",
-        "Create user stories and acceptance criteria.",
-        "Analyze processes and propose improvements.",
-        "Work closely with stakeholders and development teams."
-      ],
-      requirements: [
-        "Experience in business analysis or product support",
-        "Strong documentation and stakeholder management skills",
-        "Understanding of data and KPIs",
-        "Good communication skills"
-      ],
-      benefits: [
-        "Career growth paths",
-        "Training and workshops",
-        "Health allowance"
-      ]
+      responsibilities: ["Develop and manage SEO strategy.", "Create engaging blog posts and articles.", "Analyze content performance using Google Analytics."],
+      requirements: ["2+ years in SEO/Content Marketing.", "Proficiency with SEMrush/Ahrefs.", "Excellent writing and editing skills."],
+      benefits: ["Remote work flexibility", "Access to premium marketing tools", "Performance-based commission"]
     }
   },
   {
     id: 13,
-    title: "Human Resources Manager",
+    title: "Financial Analyst",
     category: "Business",
-    location: "Lagos",
-    shortDesc: "Manage recruitment, policies and employee relations.",
+    location: "Abuja",
+    shortDesc: "Provide financial planning and analysis to support strategic decisions.",
     jobType: "Full-time",
-  pay: "220,000 / month",
+    pay: "400,000 / month",
     longDesc: {
-      responsibilities: [
-        "Lead recruitment and onboarding processes.",
-        "Manage HR policies, benefits and compliance.",
-        "Support managers on employee relations and performance.",
-        "Drive employee engagement initiatives."
-      ],
-      requirements: [
-        "Experience in HR generalist or managerial roles",
-        "Knowledge of employment law and HR systems",
-        "Strong interpersonal skills",
-        "Confidentiality and professionalism"
-      ],
-      benefits: [
-        "Health benefits",
-        "Professional development",
-        "Work-life balance initiatives"
-      ]
+      responsibilities: ["Prepare budgets and financial forecasts.", "Analyze variances and key business drivers.", "Support due diligence activities."],
+      requirements: ["CFA or relevant Master's degree.", "3+ years of financial modeling.", "Advanced proficiency in Excel and financial software."],
+      benefits: ["401k matching", "Annual salary review", "Professional membership fees covered"]
     }
   },
   {
     id: 14,
-    title: "Marketing Manager",
+    title: "HR Business Partner",
     category: "Business",
-    location: "Remote",
-    shortDesc: "Drive marketing strategy, campaigns and brand growth.",
+    location: "Port Harcourt",
+    shortDesc: "Align HR strategy with business objectives for the technical departments.",
     jobType: "Full-time",
-  pay: "280,000 / month",
+    pay: "350,000 / month",
     longDesc: {
-      responsibilities: [
-        "Develop and execute marketing strategies.",
-        "Manage campaigns across channels (digital, email, social).",
-        "Analyze campaign performance and optimize spend.",
-        "Collaborate with product and sales for go-to-market plans."
-      ],
-      requirements: [
-        "Experience in digital marketing and campaign management",
-        "Familiarity with analytics and marketing tools",
-        "Creative mindset and strong communication skills",
-        "Experience with budgets and ROI tracking"
-      ],
-      benefits: [
-        "Performance bonuses",
-        "Flexible working hours",
-        "Training allowance"
-      ]
+      responsibilities: ["Manage talent acquisition and retention.", "Handle employee relations and performance management.", "Develop training programs."],
+      requirements: ["5+ years as an HR Business Partner.", "Deep knowledge of labor laws.", "Excellent interpersonal skills."],
+      benefits: ["Employee stock purchase plan", "Wellness programs", "Dedicated HR coaching"]
     }
   },
   {
     id: 15,
-    title: "Operations Manager",
+    title: "Sales Development Representative (SDR)",
     category: "Business",
     location: "Lagos",
-    shortDesc: "Oversee daily operations and improve processes.",
+    shortDesc: "Generate qualified leads and book meetings for the sales team.",
     jobType: "Full-time",
-  pay: "270,000 / month",
+    pay: "150,000 / month + Commission",
     longDesc: {
-      responsibilities: [
-        "Manage operational workflows and vendor relationships.",
-        "Implement process improvements for efficiency.",
-        "Monitor KPIs and report to leadership.",
-        "Support cross-functional teams with operational needs."
-      ],
-      requirements: [
-        "Experience in operations or logistics",
-        "Strong organizational skills",
-        "Analytical approach to process improvement",
-        "Good communication and leadership"
-      ],
-      benefits: [
-        "Competitive pay",
-        "Health plan",
-        "Career development"
-      ]
+      responsibilities: ["Identify and research potential clients.", "Conduct cold calls and email outreach.", "Maintain accurate records in CRM (Salesforce)."],
+      requirements: ["1+ year in B2B sales/SDR role.", "High energy and persistence.", "Familiarity with CRM tools."],
+      benefits: ["Uncapped commission structure", "Career path to Account Executive", "Sales training bootcamps"]
     }
   },
   {
     id: 16,
-    title: "Financial Analyst",
+    title: "Operations Manager",
     category: "Business",
-    location: "Lagos",
-    shortDesc: "Analyze financial data to support business decisions.",
+    location: "Ibadan",
+    shortDesc: "Oversee daily operations and improve efficiency across departments.",
     jobType: "Full-time",
-  pay: "300,000 / month",
+    pay: "380,000 / month",
     longDesc: {
-      responsibilities: [
-        "Prepare financial models and forecasts.",
-        "Analyze budgets, revenue and expense drivers.",
-        "Provide insights to leadership for strategic decisions.",
-        "Support month-end reporting and variance analysis."
-      ],
-      requirements: [
-        "Strong Excel and financial modelling skills",
-        "Experience with accounting or finance roles",
-        "Analytical mindset and attention to detail",
-        "Knowledge of financial systems"
-      ],
-      benefits: [
-        "Performance-based bonuses",
-        "Professional development support",
-        "Health benefits"
-      ]
+      responsibilities: ["Streamline operational procedures.", "Manage vendor relationships and procurement.", "Lead process improvement projects."],
+      requirements: ["5+ years in Operations Management.", "Lean Six Sigma certification preferred.", "Strong project management skills."],
+      benefits: ["Leadership development programs", "Health and dental coverage", "Flexible start times"]
     }
   },
   {
     id: 17,
-    title: "Sales Executive",
+    title: "Legal Counsel",
     category: "Business",
-    location: "Lagos / Remote",
-    shortDesc: "Generate leads and close deals to hit sales targets.",
+    location: "Lagos",
+    shortDesc: "Provide legal guidance on corporate governance and compliance matters.",
     jobType: "Full-time",
-    pay: "Basic + Commission",
+    pay: "650,000 / month",
     longDesc: {
-      responsibilities: [
-        "Identify and qualify prospects.",
-        "Pitch products/services and negotiate deals.",
-        "Manage client relationships and pipelines.",
-        "Meet or exceed monthly sales targets."
-      ],
-      requirements: [
-        "Proven sales experience",
-        "Strong communication and negotiation skills",
-        "Self-motivated and target-driven",
-        "Familiarity with CRM systems"
-      ],
-      benefits: [
-        "Attractive commission structure",
-        "Sales incentives",
-        "Career progression"
-      ]
+      responsibilities: ["Draft and review commercial contracts.", "Ensure regulatory compliance.", "Manage litigation and external counsel."],
+      requirements: ["Licensed Barrister/Solicitor (BL/LLB).", "5+ years of corporate legal experience.", "Expertise in IP law is a plus."],
+      benefits: ["Private office", "Executive health package", "Discretionary bonus"]
     }
   },
   {
     id: 18,
-    title: "Customer Relationship Manager",
+    title: "Customer Success Manager",
     category: "Business",
-    location: "Lagos",
-    shortDesc: "Manage client success and long-term partnerships.",
+    location: "Remote (Africa)",
+    shortDesc: "Ensure customer satisfaction and drive adoption of our B2B software.",
     jobType: "Full-time",
-  pay: "200,000 / month",
+    pay: "320,000 / month",
     longDesc: {
-      responsibilities: [
-        "Onboard and support customers to achieve outcomes.",
-        "Monitor account health and address issues.",
-        "Build long-term relationships and renewals.",
-        "Act as liaison between customers and internal teams."
-      ],
-      requirements: [
-        "Experience in customer success or account management",
-        "Strong communication and problem-solving skills",
-        "Customer-focused mindset",
-        "Ability to manage multiple accounts"
-      ],
-      benefits: [
-        "Training and development",
-        "Performance rewards",
-        "Flexible work options"
-      ]
+      responsibilities: ["Manage a portfolio of key accounts.", "Conduct quarterly business reviews (QBRs).", "Identify upsell and renewal opportunities."],
+      requirements: ["3+ years in Customer Success/Account Management.", "Experience with SaaS platforms.", "Excellent presentation skills."],
+      benefits: ["Travel opportunities (post-COVID)", "Commission on renewals", "Modern technology allowance"]
     }
   },
   {
     id: 19,
-    title: "Product Manager",
+    title: "Business Development Executive",
     category: "Business",
-    location: "Lagos / Hybrid",
-    shortDesc: "Define product vision and lead cross-functional teams.",
+    location: "Lagos",
+    shortDesc: "Forge new strategic partnerships and open new market segments.",
     jobType: "Full-time",
-  pay: "400,000 / month",
+    pay: "200,000 / month + Commission",
     longDesc: {
-      responsibilities: [
-        "Define product roadmap and prioritize features.",
-        "Work with engineering and design to ship products.",
-        "Gather user feedback and iterate on the product.",
-        "Measure product performance and KPIs."
-      ],
-      requirements: [
-        "Experience in product management or related role",
-        "Strong strategic and analytical skills",
-        "Excellent stakeholder communication",
-        "Familiarity with product analytics tools"
-      ],
-      benefits: [
-        "Leadership opportunities",
-        "Competitive salary",
-        "Growth & mentorship"
-      ]
+      responsibilities: ["Identify and evaluate new business opportunities.", "Negotiate partnership agreements.", "Conduct market analysis and competitive research."],
+      requirements: ["Proven track record in Business Development.", "Strong network in the industry.", "MBA preferred."],
+      benefits: ["Car allowance", "High-tier commission structure", "Access to executive mentorship"]
     }
   },
   {
     id: 20,
-    title: "Administrative Assistant",
+    title: "Executive Assistant to the CEO",
     category: "Business",
     location: "Lagos",
-    shortDesc: "Provide administrative support to teams and executives.",
+    shortDesc: "Provide comprehensive administrative and operational support to the CEO.",
     jobType: "Full-time",
-  pay: "120,000 / month",
+    pay: "240,000 / month",
     longDesc: {
-      responsibilities: [
-        "Manage schedules, correspondence and filing.",
-        "Support HR and finance with basic tasks.",
-        "Coordinate meetings and travel arrangements.",
-        "Perform general office duties as assigned."
-      ],
-      requirements: [
-        "Good organizational skills",
-        "Proficiency with MS Office",
-        "Strong communication",
-        "Attention to detail"
-      ],
-      benefits: [
-        "Stable employment",
-        "Training opportunities",
-        "Paid leave"
-      ]
+      responsibilities: ["Manage complex calendar and travel arrangements.", "Prepare presentations and reports.", "Handle confidential correspondence."],
+      requirements: ["5+ years supporting C-level executives.", "Discretion and professionalism.", "Proficiency in MS Office Suite."],
+      benefits: ["Discretionary annual bonus", "Gym membership", "Opportunity for international travel"]
     }
   },
-
-  // Creative & Media (21 - 30)
+  // ===================================
+  // Creative (21 - 30)
+  // ===================================
   {
     id: 21,
-    title: "Graphic Designer",
+    title: "Motion Graphics Designer",
     category: "Creative",
-    location: "Remote",
-    shortDesc: "Create visuals for web, social, and print.",
-    jobType: "Full-time",
-  pay: "180,000 / month",
+    location: "Remote (Nigeria)",
+    shortDesc: "Create compelling animated videos for marketing and social media.",
+    jobType: "Contract",
+    pay: "180,000 / project",
     longDesc: {
-      responsibilities: [
-        "Design marketing assets, logos and UI elements.",
-        "Work with content and product teams on creative deliverables.",
-        "Maintain brand consistency across channels.",
-        "Prepare files for web and print production."
-      ],
-      requirements: [
-        "Proficiency in Adobe Creative Suite or Figma",
-        "Strong portfolio of design work",
-        "Attention to typography and layout",
-        "Good collaboration skills"
-      ],
-      benefits: [
-        "Creative tool subscriptions",
-        "Remote-friendly",
-        "Portfolio growth opportunities"
-      ]
+      responsibilities: ["Design and animate explainer videos and social content.", "Work with sound and video editors.", "Maintain brand consistency in motion assets."],
+      requirements: ["3+ years experience in motion design.", "Expertise in After Effects and Premiere Pro.", "Strong portfolio required."],
+      benefits: ["Flexible contract terms", "Project completion bonuses", "Remote collaboration tools provided"]
     }
   },
   {
     id: 22,
-    title: "Content Writer",
+    title: "Lead Photographer",
     category: "Creative",
-    location: "Lagos / Remote",
-    shortDesc: "Write blog posts, marketing copy, and product content.",
+    location: "Lagos/Travel",
+    shortDesc: "Capture high-quality, professional images for major campaigns.",
     jobType: "Full-time",
-    pay: "From 150,000 / month",
+    pay: "350,000 / month",
     longDesc: {
-      responsibilities: [
-        "Produce SEO-friendly articles and marketing copy.",
-        "Collaborate with designers and product teams.",
-        "Research topics and verify information.",
-        "Edit and proofread content before publishing."
-      ],
-      requirements: [
-        "Excellent writing and editing skills",
-        "Basic knowledge of SEO",
-        "Ability to meet deadlines",
-        "Portfolio of published work"
-      ],
-      benefits: [
-        "Flexible schedule",
-        "Exposure to varied projects",
-        "Content training"
-      ]
+      responsibilities: ["Plan and execute photo shoots (studio and on-location).", "Perform advanced image retouching.", "Manage photography equipment inventory."],
+      requirements: ["5+ years professional photography experience.", "Expertise in Adobe Lightroom/Photoshop.", "Valid driver's license and passport."],
+      benefits: ["Equipment allowance", "Travel stipend", "Creative freedom"]
     }
   },
   {
     id: 23,
-    title: "Copywriter",
+    title: "Copywriter (B2B Tech)",
     category: "Creative",
-    location: "Lagos",
-    shortDesc: "Write persuasive marketing copy and ad headlines.",
+    location: "Abuja",
+    shortDesc: "Write clear, persuasive copy for websites, emails, and case studies.",
     jobType: "Full-time",
-    pay: "From 160,000 / month",
+    pay: "280,000 / month",
     longDesc: {
-      responsibilities: [
-        "Craft compelling ad copy and landing page content.",
-        "Collaborate with creative and marketing teams.",
-        "Test messaging and iterate based on performance.",
-        "Maintain brand voice across campaigns."
-      ],
-      requirements: [
-        "Strong copywriting and editing skills",
-        "Understanding of conversion-focused writing",
-        "Ability to work with briefs and deadlines",
-        "Portfolio of ad or marketing copy"
-      ],
-      benefits: [
-        "Performance bonuses",
-        "Creative workshops",
-        "Flexible working"
-      ]
+      responsibilities: ["Develop messaging strategy for technical products.", "Write marketing copy across various channels.", "Ensure consistency in brand voice."],
+      requirements: ["3+ years of professional copywriting.", "Portfolio demonstrating technical writing ability.", "Knowledge of SEO best practices."],
+      benefits: ["Generous paid sick leave", "Creative team collaboration events", "Access to industry workshops"]
     }
   },
   {
     id: 24,
     title: "Video Editor",
     category: "Creative",
-    location: "Remote",
-    shortDesc: "Edit promotional and social videos with creative flair.",
-    jobType: "Contract",
-    pay: "From 120,000 / month (contract)",
+    location: "Lagos",
+    shortDesc: "Assemble and fine-tune footage into compelling narratives for digital platforms.",
+    jobType: "Full-time",
+    pay: "220,000 / month",
     longDesc: {
-      responsibilities: [
-        "Edit footage into polished videos for social and web.",
-        "Add motion graphics and sound design when needed.",
-        "Collaborate with content and marketing teams.",
-        "Optimize videos for platform delivery."
-      ],
-      requirements: [
-        "Experience with Premiere Pro, Final Cut, or DaVinci Resolve",
-        "Portfolio of video editing work",
-        "Good sense of pacing and storytelling",
-        "Ability to meet tight deadlines"
-      ],
-      benefits: [
-        "Remote contract work",
-        "Creative freedom",
-        "Tool access"
-      ]
+      responsibilities: ["Edit long and short-form video content.", "Manage media assets and archives.", "Collaborate with directors and producers."],
+      requirements: ["2+ years experience in professional video editing.", "Proficiency in Final Cut Pro or Adobe Premiere.", "Familiarity with color grading and audio mixing."],
+      benefits: ["High-spec editing workstation", "Access to stock media libraries", "Regular training on new software"]
     }
   },
   {
     id: 25,
-    title: "Social Media Manager",
+    title: "Creative Director",
     category: "Creative",
     location: "Lagos",
-    shortDesc: "Plan and run social campaigns to grow brand presence.",
+    shortDesc: "Lead the creative vision and direction for all brand initiatives.",
     jobType: "Full-time",
-    pay: "From 180,000 / month",
+    pay: "700,000 / month",
     longDesc: {
-      responsibilities: [
-        "Develop content calendars and run campaigns.",
-        "Engage with audiences and monitor performance.",
-        "Create social creatives with the creative team.",
-        "Report on growth and optimize strategies."
-      ],
-      requirements: [
-        "Experience running social media accounts",
-        "Familiarity with analytics tools",
-        "Good copy and creative understanding",
-        "Ability to manage multiple channels"
-      ],
-      benefits: [
-        "Performance incentives",
-        "Flexible hours",
-        "Learning resources"
-      ]
+      responsibilities: ["Oversee design, content, and video teams.", "Set the overall creative strategy and ensure quality.", "Present concepts to executive leadership."],
+      requirements: ["10+ years of creative leadership experience.", "Demonstrated success managing large campaigns.", "Outstanding communication and motivational skills."],
+      benefits: ["Executive bonus structure", "Significant influence on company strategy", "Dedicated professional development fund"]
     }
   },
   {
     id: 26,
-    title: "Photographer",
+    title: "Illustrator/Concept Artist",
     category: "Creative",
-    location: "Lagos",
-    shortDesc: "Shoot and retouch images for campaigns and product.",
+    location: "Remote (Global)",
+    shortDesc: "Design unique characters, environments, and assets for digital products.",
     jobType: "Contract",
-    pay: "Per assignment",
+    pay: "50,000 - 150,000 / asset",
     longDesc: {
-      responsibilities: [
-        "Plan and execute photoshoots for products and campaigns.",
-        "Edit and retouch images for web and print.",
-        "Collaborate with design and marketing teams.",
-        "Manage file delivery and archiving."
-      ],
-      requirements: [
-        "Portfolio of photography work",
-        "Proficiency in photo editing tools",
-        "Good lighting and composition skills",
-        "Reliable equipment"
-      ],
-      benefits: [
-        "Freelance flexibility",
-        "Exposure to brand shoots",
-        "Creative collaboration"
-      ]
+      responsibilities: ["Create high-quality illustrations and concept art.", "Work closely with game/product developers.", "Meet deadlines for production milestones."],
+      requirements: ["Strong digital painting and drawing skills.", "Expertise in Adobe Illustrator/Photoshop or Procreate.", "Portfolio specializing in relevant style."],
+      benefits: ["Flexible deadlines", "Opportunity for long-term project work", "Global remote team"]
     }
   },
   {
     id: 27,
-    title: "Illustrator",
+    title: "Brand Strategist",
     category: "Creative",
-    location: "Remote",
-    shortDesc: "Create custom illustrations for web and marketing.",
-    jobType: "Freelance",
-    pay: "Per project",
+    location: "Lagos",
+    shortDesc: "Define and reinforce the company's brand identity and market positioning.",
+    jobType: "Full-time",
+    pay: "450,000 / month",
     longDesc: {
-      responsibilities: [
-        "Produce vector and raster illustrations for web use.",
-        "Work with design to match brand style.",
-        "Deliver assets optimized for multiple sizes.",
-        "Iterate based on feedback."
-      ],
-      requirements: [
-        "Strong illustration portfolio",
-        "Proficiency with Illustrator/Procreate",
-        "Ability to meet art direction",
-        "Good communication"
-      ],
-      benefits: [
-        "Remote freelance work",
-        "Creative variety",
-        "Portfolio growth"
-      ]
+      responsibilities: ["Conduct brand audits and competitive analysis.", "Develop brand guidelines and communication strategies.", "Manage brand partnerships and activations."],
+      requirements: ["5+ years in brand strategy or marketing.", "Experience working with global brands.", "Data-driven approach to brand building."],
+      benefits: ["Performance-based equity", "Comprehensive travel allowance", "Paid sabbatical after 5 years"]
     }
   },
   {
     id: 28,
-    title: "Brand Strategist",
+    title: "Social Media Manager",
     category: "Creative",
-    location: "Lagos",
-    shortDesc: "Define brand positioning and communication strategies.",
+    location: "Remote (Nigeria)",
+    shortDesc: "Manage and grow all company social media channels and campaigns.",
     jobType: "Full-time",
-    pay: "From 320,000 / month",
+    pay: "190,000 / month",
     longDesc: {
-      responsibilities: [
-        "Develop brand strategies and messaging frameworks.",
-        "Work with marketing and design to execute brand plans.",
-        "Conduct competitive and market analysis.",
-        "Ensure brand consistency across touchpoints."
-      ],
-      requirements: [
-        "Experience in branding or marketing strategy",
-        "Strong analytical and creative thinking",
-        "Excellent presentation skills",
-        "Portfolio of past brand work"
-      ],
-      benefits: [
-        "Strategic leadership role",
-        "Competitive salary",
-        "Growth opportunities"
-      ]
+      responsibilities: ["Create and schedule daily content.", "Monitor engagement and analyze metrics.", "Manage paid social media advertising."],
+      requirements: ["2+ years managing professional social media accounts.", "Familiarity with Hootsuite/Buffer.", "Strong understanding of platform algorithms."],
+      benefits: ["Free subscription to social media analytics tools", "Annual personal growth budget", "Flexible holiday schedule"]
     }
   },
   {
     id: 29,
-    title: "Motion Graphics Designer",
+    title: "Print Production Specialist",
     category: "Creative",
-    location: "Remote",
-    shortDesc: "Create animated visuals for product and marketing.",
-    jobType: "Contract",
-    pay: "Per project",
+    location: "Ibadan",
+    shortDesc: "Manage the design and production of high-quality printed materials.",
+    jobType: "Full-time",
+    pay: "210,000 / month",
     longDesc: {
-      responsibilities: [
-        "Design and animate motion graphics for video and web.",
-        "Collaborate with creative teams to bring concepts to life.",
-        "Deliver optimized animations for multiple platforms.",
-        "Iterate based on feedback and performance data."
-      ],
-      requirements: [
-        "Experience with After Effects or similar",
-        "Portfolio of motion work",
-        "Understanding of timing and storytelling",
-        "Ability to manage project timelines"
-      ],
-      benefits: [
-        "Remote creative work",
-        "Exposure to diverse projects",
-        "Tool access"
-      ]
+      responsibilities: ["Prepare files for offset and digital printing.", "Liaise with external print vendors.", "Ensure color accuracy and quality control."],
+      requirements: ["3+ years in print production or graphic design.", "Expertise in Adobe InDesign and pre-press setup.", "Strong attention to detail."],
+      benefits: ["Dedicated hardware budget", "Company-paid gym membership", "Collaborative studio environment"]
     }
   },
   {
     id: 30,
-    title: "Public Relations Specialist",
+    title: "Junior Graphic Designer",
     category: "Creative",
     location: "Lagos",
-    shortDesc: "Manage public image, media relations and PR campaigns.",
+    shortDesc: "Assist the senior design team with daily creative tasks and asset creation.",
     jobType: "Full-time",
-    pay: "From 200,000 / month",
+    pay: "160,000 / month",
     longDesc: {
-      responsibilities: [
-        "Develop PR strategies and press materials.",
-        "Build relationships with media and influencers.",
-        "Coordinate press events and communications.",
-        "Monitor coverage and report on PR impact."
-      ],
-      requirements: [
-        "Experience in PR or communications",
-        "Strong writing and relationship-building skills",
-        "Crisis communications experience is a plus",
-        "Good organizational skills"
-      ],
-      benefits: [
-        "Media training",
-        "Networking opportunities",
-        "Performance incentives"
-      ]
+      responsibilities: ["Design social media graphics and basic web assets.", "Format presentations and documents.", "Organize digital asset libraries."],
+      requirements: ["1+ year in a design role or internship.", "Proficiency in Adobe Creative Suite.", "Willingness to learn and take direction."],
+      benefits: ["Dedicated mentor", "Full Adobe Creative Cloud license", "Clear path for career progression"]
     }
   },
-
-  // Healthcare & Education (31 - 40)
+  // ===================================
+  // Healthcare (31 - 40)
+  // ===================================
   {
     id: 31,
-    title: "Registered Nurse",
+    title: "Registered Nurse (RN)",
     category: "Healthcare",
-    location: "Lagos",
-    shortDesc: "Provide patient care and support clinical operations.",
+    location: "Abuja",
+    shortDesc: "Provide compassionate patient care in a fast-paced hospital setting.",
     jobType: "Full-time",
-    pay: "From 200,000 / month",
+    pay: "280,000 / month",
     longDesc: {
-      responsibilities: [
-        "Deliver direct patient care and monitor health status.",
-        "Administer medications and treatments as prescribed.",
-        "Document patient information accurately.",
-        "Collaborate with medical staff for care plans."
-      ],
-      requirements: [
-        "Valid nursing license",
-        "Clinical experience in a hospital or clinic",
-        "Strong communication and empathy",
-        "Ability to work shifts"
-      ],
-      benefits: [
-        "Health insurance",
-        "Shift allowances",
-        "Professional development"
-      ]
+      responsibilities: ["Administer medication and treatments.", "Monitor and record patient vital signs.", "Educate patients and families on health management."],
+      requirements: ["Current RN license.", "2+ years of clinical experience.", "BLS/ACLS certification."],
+      benefits: ["Shift differential pay", "Continuing education credits", "Comprehensive medical coverage"]
     }
   },
   {
     id: 32,
-    title: "Medical Laboratory Scientist",
+    title: "Hospital Administrator",
     category: "Healthcare",
     location: "Lagos",
-    shortDesc: "Perform lab tests and ensure result accuracy.",
+    shortDesc: "Manage the non-clinical operations of a mid-sized private hospital.",
     jobType: "Full-time",
-    pay: "From 220,000 / month",
+    pay: "500,000 / month",
     longDesc: {
-      responsibilities: [
-        "Run laboratory tests and analyze results.",
-        "Maintain lab equipment and quality control.",
-        "Report accurate and timely findings.",
-        "Adhere to safety and regulatory standards."
-      ],
-      requirements: [
-        "Degree in Medical Laboratory Science",
-        "Experience with lab equipment and protocols",
-        "Attention to detail",
-        "Good record-keeping"
-      ],
-      benefits: [
-        "Health benefits",
-        "Professional growth",
-        "Technical training"
-      ]
+      responsibilities: ["Oversee budgeting and financial planning.", "Ensure compliance with healthcare regulations.", "Manage facility and staff scheduling."],
+      requirements: ["Master's in Healthcare Administration (MHA) preferred.", "5+ years in hospital management.", "Strong leadership skills."],
+      benefits: ["Performance bonuses", "Executive retreat access", "Generous retirement plan"]
     }
   },
   {
     id: 33,
     title: "Pharmacist",
     category: "Healthcare",
-    location: "Lagos",
-    shortDesc: "Dispense medications and advise patients on drug use.",
+    location: "Port Harcourt",
+    shortDesc: "Dispense medication and counsel patients on proper drug usage.",
     jobType: "Full-time",
-    pay: "From 240,000 / month",
+    pay: "320,000 / month",
     longDesc: {
-      responsibilities: [
-        "Dispense prescription medications accurately.",
-        "Provide drug counseling to patients.",
-        "Manage pharmacy inventory and orders.",
-        "Ensure regulatory compliance."
-      ],
-      requirements: [
-        "Valid pharmacy degree and license",
-        "Knowledge of drug interactions",
-        "Customer service skills",
-        "Inventory management"
-      ],
-      benefits: [
-        "Competitive pay",
-        "Health allowance",
-        "Professional development"
-      ]
+      responsibilities: ["Verify prescription accuracy.", "Maintain drug inventory and security.", "Provide immunization services."],
+      requirements: ["Current state Pharmacist license.", "Doctor of Pharmacy (Pharm.D.) or equivalent.", "Strong patient counseling skills."],
+      benefits: ["Relocation package offered", "Uniform allowance", "Flexible weekend shifts"]
     }
   },
   {
     id: 34,
-    title: "General Practitioner (Doctor)",
+    title: "Medical Laboratory Technician",
     category: "Healthcare",
-    location: "Lagos",
-    shortDesc: "Provide primary care and clinical assessments.",
+    location: "Enugu",
+    shortDesc: "Perform diagnostic tests and analyze clinical samples.",
     jobType: "Full-time",
-    pay: "From 600,000 / month",
+    pay: "200,000 / month",
     longDesc: {
-      responsibilities: [
-        "Perform clinical examinations and diagnose conditions.",
-        "Prescribe treatments and follow-up plans.",
-        "Coordinate with specialists when needed.",
-        "Maintain accurate patient records."
-      ],
-      requirements: [
-        "Medical degree and license to practice",
-        "Clinical experience",
-        "Excellent diagnostic and bedside manner",
-        "Ability to work with multidisciplinary teams"
-      ],
-      benefits: [
-        "Competitive remuneration",
-        "Medical staff benefits",
-        "Continuing education"
-      ]
+      responsibilities: ["Collect and process biological specimens.", "Operate and maintain lab equipment.", "Report test results accurately and promptly."],
+      requirements: ["MLT certification.", "Familiarity with clinical pathology.", "Strong attention to detail."],
+      benefits: ["State-of-the-art lab equipment", "Opportunities for specialization", "Paid professional liability insurance"]
     }
   },
   {
     id: 35,
-    title: "Primary School Teacher",
+    title: "Physical Therapist (PT)",
     category: "Healthcare",
-    location: "Lagos",
-    shortDesc: "Teach and care for primary-school learners.",
+    location: "Ibadan",
+    shortDesc: "Develop treatment plans to help patients recover from injuries or illnesses.",
     jobType: "Full-time",
-    pay: "From 120,000 / month",
+    pay: "300,000 / month",
     longDesc: {
-      responsibilities: [
-        "Plan and deliver lessons according to curriculum.",
-        "Assess student progress and provide feedback.",
-        "Create a safe and inclusive classroom environment.",
-        "Communicate with parents about student development."
-      ],
-      requirements: [
-        "Degree or diploma in education",
-        "Classroom teaching experience",
-        "Patience and strong communication skills",
-        "Classroom management skills"
-      ],
-      benefits: [
-        "Teacher training",
-        "School benefits",
-        "Holiday periods"
-      ]
+      responsibilities: ["Evaluate patients' physical condition and limitations.", "Implement individualized therapy programs.", "Document patient progress and goals."],
+      requirements: ["Doctor of Physical Therapy (DPT) or equivalent.", "Current PT license.", "Experience in orthopedic rehabilitation."],
+      benefits: ["Caseload management support", "Access to therapy equipment", "Continuing medical education funding"]
     }
   },
   {
     id: 36,
-    title: "University Lecturer",
+    title: "Mental Health Counselor",
     category: "Healthcare",
-    location: "Lagos",
-    shortDesc: "Deliver lectures and support research in your field.",
-    jobType: "Full-time",
-    pay: "From 350,000 / month",
+    location: "Remote (Nigeria)",
+    shortDesc: "Provide virtual counseling and support to clients dealing with mental health issues.",
+    jobType: "Part-time",
+    pay: "10,000 / hour",
     longDesc: {
-      responsibilities: [
-        "Teach undergraduate and postgraduate courses.",
-        "Supervise student research and projects.",
-        "Publish research and participate in academic activities.",
-        "Contribute to curriculum development."
-      ],
-      requirements: [
-        "Advanced degree (MSc/PhD preferred)",
-        "Teaching and research experience",
-        "Strong subject-matter expertise",
-        "Good communication and academic writing"
-      ],
-      benefits: [
-        "Research funding support",
-        "Academic leave",
-        "Development opportunities"
-      ]
+      responsibilities: ["Conduct virtual therapy sessions.", "Develop personalized treatment plans.", "Maintain clinical records and ethical standards."],
+      requirements: ["Licensed Counselor (LPC/LMHC).", "3+ years of clinical experience.", "Familiarity with teletherapy platforms."],
+      benefits: ["Flexible scheduling (work from home)", "Clinical supervision provided", "Access to secure telehealth platform"]
     }
   },
   {
     id: 37,
-    title: "Education Consultant",
+    title: "Biomedical Engineer",
     category: "Healthcare",
-    location: "Remote",
-    shortDesc: "Advise institutions on curriculum and learning strategies.",
-    jobType: "Contract",
-    pay: "Project-based",
+    location: "Lagos",
+    shortDesc: "Design, maintain, and manage medical equipment and technology.",
+    jobType: "Full-time",
+    pay: "450,000 / month",
     longDesc: {
-      responsibilities: [
-        "Assess curricula and recommend improvements.",
-        "Train teachers and education leaders.",
-        "Develop learning materials and programs.",
-        "Evaluate educational outcomes and impact."
-      ],
-      requirements: [
-        "Experience in education development",
-        "Strong analytical and training skills",
-        "Excellent communication",
-        "Project management experience"
-      ],
-      benefits: [
-        "Project-based flexibility",
-        "Consulting fees",
-        "Remote work"
-      ]
+      responsibilities: ["Install and calibrate medical devices.", "Troubleshoot equipment malfunctions.", "Train clinical staff on equipment use."],
+      requirements: ["Bachelor's in Biomedical Engineering.", "2+ years of experience in a hospital setting.", "Knowledge of regulatory standards."],
+      benefits: ["Technical training programs", "On-call bonus pay", "Opportunities for R&D involvement"]
     }
   },
   {
     id: 38,
-    title: "School Administrator",
+    title: "Radiology Technician",
     category: "Healthcare",
-    location: "Lagos",
-    shortDesc: "Oversee school operations and administration.",
+    location: "Abuja",
+    shortDesc: "Perform diagnostic imaging procedures (X-rays, MRIs) safely.",
     jobType: "Full-time",
-    pay: "From 220,000 / month",
+    pay: "250,000 / month",
     longDesc: {
-      responsibilities: [
-        "Manage admissions, staff, and school logistics.",
-        "Ensure compliance and student welfare.",
-        "Coordinate parent and community engagement.",
-        "Oversee budgeting and school planning."
-      ],
-      requirements: [
-        "Experience in school administration",
-        "Strong organizational skills",
-        "Leadership and interpersonal skills",
-        "Understanding of education regulations"
-      ],
-      benefits: [
-        "Professional development",
-        "Health benefits",
-        "Structured work schedule"
-      ]
+      responsibilities: ["Operate imaging equipment.", "Ensure patient safety during procedures.", "Maintain quality control records."],
+      requirements: ["Certified Radiologic Technologist (ARRT).", "Experience with various imaging modalities.", "Strong patient care skills."],
+      benefits: ["Annual uniform stipend", "Overtime opportunities", "Modern imaging suite"]
     }
   },
   {
     id: 39,
-    title: "Psychologist (Counselling)",
+    title: "Public Health Specialist",
     category: "Healthcare",
-    location: "Lagos",
-    shortDesc: "Provide counselling and mental health support services.",
-    jobType: "Full-time",
-    pay: "From 200,000 / month",
+    location: "Remote (Nigeria)",
+    shortDesc: "Design and implement community-based health education programs.",
+    jobType: "Contract",
+    pay: "350,000 / month",
     longDesc: {
-      responsibilities: [
-        "Conduct assessments and provide counselling.",
-        "Develop treatment plans and referrals.",
-        "Maintain confidential records and ethical practice.",
-        "Work with multidisciplinary teams for patient care."
-      ],
-      requirements: [
-        "Degree in Psychology and relevant licensure",
-        "Clinical counselling experience",
-        "Strong communication and empathy",
-        "Confidentiality and professionalism"
-      ],
-      benefits: [
-        "Supervision and training",
-        "Health benefits",
-        "Flexible scheduling"
-      ]
+      responsibilities: ["Conduct community health needs assessments.", "Develop health promotion materials.", "Liaise with NGOs and government agencies."],
+      requirements: ["Master's in Public Health (MPH).", "3+ years of fieldwork experience.", "Excellent presentation and research skills."],
+      benefits: ["Travel allowance for fieldwork", "Project-based flexibility", "Impactful community work"]
     }
   },
   {
     id: 40,
-    title: "Physiotherapist",
+    title: "Dental Hygienist",
     category: "Healthcare",
     location: "Lagos",
-    shortDesc: "Provide physical rehabilitation and therapy services.",
+    shortDesc: "Provide preventative oral care and educate patients on dental hygiene.",
     jobType: "Full-time",
-    pay: "From 190,000 / month",
+    pay: "220,000 / month",
     longDesc: {
-      responsibilities: [
-        "Assess patients' physical conditions and plan therapy.",
-        "Provide treatments and track progress.",
-        "Educate patients on exercises and prevention.",
-        "Coordinate with medical staff for care plans."
-      ],
-      requirements: [
-        "Degree or diploma in physiotherapy",
-        "Clinical experience in rehabilitation",
-        "Manual therapy skills",
-        "Good patient communication"
-      ],
-      benefits: [
-        "Professional development",
-        "Clinic support",
-        "Healthcare benefits"
-      ]
+      responsibilities: ["Perform dental cleanings and scaling.", "Take and develop dental radiographs.", "Educate patients on oral care techniques."],
+      requirements: ["Licensed Dental Hygienist.", "Experience with pediatric and adult patients.", "Strong knowledge of dental software."],
+      benefits: ["Profit-sharing scheme", "Team social events", "Modern dental clinic environment"]
     }
   },
-
-  // Skilled Trades & Miscellaneous (41 - 50)
+  // ===================================
+  // Trades (41 - 50)
+  // ===================================
   {
     id: 41,
-    title: "Electrician",
+    title: "Certified Electrician",
     category: "Trades",
     location: "Lagos",
-    shortDesc: "Install and maintain electrical systems for residential and commercial sites.",
+    shortDesc: "Install, maintain, and repair electrical wiring and systems.",
     jobType: "Full-time",
-    pay: "From 120,000 / month",
+    pay: "250,000 / month",
     longDesc: {
-      responsibilities: [
-        "Install wiring, outlets and lighting systems.",
-        "Diagnose and repair electrical faults.",
-        "Follow safety codes and standards.",
-        "Provide maintenance and preventive checks."
-      ],
-      requirements: [
-        "Technical certificate or apprenticeship",
-        "Practical electrical installation experience",
-        "Knowledge of safety protocols",
-        "Good problem-solving skills"
-      ],
-      benefits: [
-        "Tool allowances",
-        "On-the-job training",
-        "Overtime pay"
-      ]
+      responsibilities: ["Install new electrical systems in residential/commercial properties.", "Troubleshoot power outages and electrical faults.", "Ensure compliance with safety codes."],
+      requirements: ["Valid Electrician's license/certification.", "5+ years of hands-on experience.", "Knowledge of local electrical codes."],
+      benefits: ["Company service vehicle", "Tool allowance", "Overtime pay"]
     }
   },
   {
     id: 42,
-    title: "Plumber",
+    title: "Plumber (Commercial)",
     category: "Trades",
-    location: "Lagos",
-    shortDesc: "Install and repair plumbing systems in residential and commercial buildings.",
-    jobType: "Full-time",
-    pay: "From 110,000 / month",
+    location: "Abuja",
+    shortDesc: "Perform complex plumbing installations and repairs for large buildings.",
+    jobType: "Contract",
+    pay: "280,000 / month",
     longDesc: {
-      responsibilities: [
-        "Install and repair pipes, fixtures and water systems.",
-        "Diagnose leaks and plumbing issues.",
-        "Ensure compliance with codes and safety.",
-        "Provide maintenance and service inspections."
-      ],
-      requirements: [
-        "Plumbing certification or apprenticeship",
-        "Practical plumbing experience",
-        "Attention to detail and safety",
-        "Customer service skills"
-      ],
-      benefits: [
-        "Tool allowance",
-        "Stable contracts",
-        "Training opportunities"
-      ]
+      responsibilities: ["Install and maintain water supply and drainage systems.", "Repair burst pipes and blockages.", "Read blueprints and schematics."],
+      requirements: ["Journeyman Plumber certification.", "7+ years of commercial plumbing experience.", "Familiarity with backflow prevention."],
+      benefits: ["Long-term contract stability", "Flexible project scheduling", "Safety training provided"]
     }
   },
   {
     id: 43,
-    title: "Carpenter",
+    title: "HVAC Technician",
     category: "Trades",
-    location: "Lagos",
-    shortDesc: "Construct and fit wooden structures and furniture.",
+    location: "Port Harcourt",
+    shortDesc: "Install and service heating, ventilation, and air conditioning systems.",
     jobType: "Full-time",
-    pay: "From 100,000 / month",
+    pay: "300,000 / month",
     longDesc: {
-      responsibilities: [
-        "Measure, cut, assemble and install wood components.",
-        "Build furniture, cabinets and frames.",
-        "Follow project specifications and blueprints.",
-        "Perform finishing and quality checks."
-      ],
-      requirements: [
-        "Carpentry apprenticeship or trade experience",
-        "Skill with hand and power tools",
-        "Ability to read plans and measurements",
-        "Physical stamina"
-      ],
-      benefits: [
-        "Tool support",
-        "Steady on-site work",
-        "Opportunity for specialization"
-      ]
+      responsibilities: ["Diagnose and repair HVAC system issues.", "Perform preventative maintenance.", "Install new AC units and ventilation systems."],
+      requirements: ["HVAC certification (e.g., EPA 608).", "4+ years of field experience.", "Ability to work in various weather conditions."],
+      benefits: ["Smartphone and data plan", "Annual boot allowance", "On-call rotation bonus"]
     }
   },
   {
     id: 44,
-    title: "Automotive Mechanic",
+    title: "Welder/Fabricator",
     category: "Trades",
-    location: "Lagos",
-    shortDesc: "Diagnose and repair vehicles for performance and safety.",
+    location: "Ibadan",
+    shortDesc: "Fabricate and repair metal structures using various welding techniques.",
     jobType: "Full-time",
-    pay: "From 140,000 / month",
+    pay: "220,000 / month",
     longDesc: {
-      responsibilities: [
-        "Inspect and diagnose vehicle systems.",
-        "Perform repairs, servicing and maintenance.",
-        "Use diagnostic tools and maintain records.",
-        "Advise customers on vehicle condition and repairs."
-      ],
-      requirements: [
-        "Automotive repair certification or experience",
-        "Knowledge of vehicle systems",
-        "Use of diagnostic equipment",
-        "Customer service orientation"
-      ],
-      benefits: [
-        "Tool allowances",
-        "Overtime pay",
-        "Training and certifications"
-      ]
+      responsibilities: ["Perform MIG, TIG, and stick welding.", "Read and interpret engineering drawings.", "Maintain welding equipment and comply with safety rules."],
+      requirements: ["Certified Welder status.", "3+ years of professional welding experience.", "Strong spatial reasoning skills."],
+      benefits: ["Access to modern fabrication shop", "Safety equipment provided", "Health insurance subsidy"]
     }
   },
   {
     id: 45,
-    title: "Welder",
+    title: "Automotive Mechanic",
     category: "Trades",
     location: "Lagos",
-    shortDesc: "Perform welding tasks for fabrication and repair projects.",
+    shortDesc: "Perform maintenance and repairs on a wide range of vehicle types.",
     jobType: "Full-time",
-    pay: "From 100,000 / month",
+    pay: "180,000 / month",
     longDesc: {
-      responsibilities: [
-        "Weld and fabricate metal structures.",
-        "Read welding blueprints and follow specifications.",
-        "Maintain welding equipment and safety protocols.",
-        "Inspect welds for quality."
-      ],
-      requirements: [
-        "Welding certification",
-        "Experience with MIG/TIG or stick welding",
-        "Safety awareness and PPE usage",
-        "Attention to weld quality"
-      ],
-      benefits: [
-        "Tool support",
-        "Jobsite travel allowance",
-        "Skill development"
-      ]
+      responsibilities: ["Diagnose engine and transmission issues.", "Perform routine oil changes and tune-ups.", "Repair brake and suspension systems."],
+      requirements: ["Relevant technical school certificate.", "2+ years working in a garage setting.", "Proficiency with diagnostic tools."],
+      benefits: ["Clean, modern workshop", "Discounted parts and service", "Opportunities for master mechanic certification"]
     }
   },
   {
     id: 46,
-    title: "Driver (Logistics)",
+    title: "Carpenter/Joiner",
     category: "Trades",
-    location: "Lagos",
-    shortDesc: "Transport goods and ensure timely deliveries across routes.",
+    location: "Enugu",
+    shortDesc: "Construct, install, and repair wooden structures and fixtures.",
     jobType: "Full-time",
-    pay: "From 90,000 / month",
+    pay: "200,000 / month",
     longDesc: {
-      responsibilities: [
-        "Deliver goods safely and on schedule.",
-        "Perform vehicle safety checks and maintenance reporting.",
-        "Handle delivery documentation and customer handoffs.",
-        "Follow route planning and logistics instructions."
-      ],
-      requirements: [
-        "Valid driver's license",
-        "Experience with delivery or logistics driving",
-        "Good time management and customer service",
-        "Familiarity with local routes"
-      ],
-      benefits: [
-        "Fuel/transport allowance",
-        "Overtime compensation",
-        "Stable work"
-      ]
+      responsibilities: ["Frame walls, roofs, and door openings.", "Install custom cabinetry and trim work.", "Operate woodworking tools safely."],
+      requirements: ["5+ years of carpentry experience.", "Ability to read construction blueprints.", "Attention to detail and precision."],
+      benefits: ["Retirement savings match", "Paid vacation during low season", "Year-round project availability"]
     }
   },
   {
     id: 47,
-    title: "Chef / Cook",
+    title: "Heavy Equipment Operator",
     category: "Trades",
-    location: "Lagos",
-    shortDesc: "Prepare meals, manage kitchen tasks and ensure food quality.",
-    jobType: "Full-time",
-    pay: "From 120,000 / month",
+    location: "Remote (Project-based)",
+    shortDesc: "Operate heavy machinery (excavators, bulldozers) on construction sites.",
+    jobType: "Contract",
+    pay: "350,000 / month",
     longDesc: {
-      responsibilities: [
-        "Prepare dishes according to menu and quality standards.",
-        "Manage kitchen hygiene and food safety.",
-        "Assist with menu planning and inventory.",
-        "Coordinate with service staff for timely delivery."
-      ],
-      requirements: [
-        "Culinary training or experience",
-        "Knowledge of food safety practices",
-        "Ability to work in a fast-paced environment",
-        "Creativity and teamwork"
-      ],
-      benefits: [
-        "Meal allowance",
-        "Training opportunities",
-        "Shift differentials"
-      ]
+      responsibilities: ["Operate equipment safely and efficiently.", "Perform daily equipment checks and maintenance.", "Follow site grading and excavation plans."],
+      requirements: ["Valid operator's license/certification.", "3+ years operating heavy machinery.", "Willingness to travel to remote sites."],
+      benefits: ["Per diem allowance for travel", "Housing provided on remote sites", "High hourly wage for overtime"]
     }
   },
   {
     id: 48,
-    title: "Security Officer",
+    title: "Mason/Tiler",
     category: "Trades",
     location: "Lagos",
-    shortDesc: "Protect property, staff and assets through patrol and monitoring.",
+    shortDesc: "Lay brick, stone, block, and tile for residential and commercial projects.",
     jobType: "Full-time",
-    pay: "From 70,000 / month",
+    pay: "230,000 / month",
     longDesc: {
-      responsibilities: [
-        "Monitor premises and perform security patrols.",
-        "Report incidents and maintain logs.",
-        "Control access and ensure visitor protocols.",
-        "Work with emergency response as needed."
-      ],
-      requirements: [
-        "Security training or certification preferred",
-        "Good observation and reporting skills",
-        "Ability to work in shifts",
-        "Professional demeanor"
-      ],
-      benefits: [
-        "Shift allowances",
-        "Uniform provision",
-        "On-the-job training"
-      ]
+      responsibilities: ["Prepare surfaces and mix mortar/grout.", "Lay materials accurately and neatly.", "Repair and restore existing masonry."],
+      requirements: ["4+ years of professional masonry experience.", "Knowledge of various materials and techniques.", "Physically fit and able to lift heavy materials."],
+      benefits: ["Steady, consistent work schedule", "Apprenticeship opportunities for growth", "Access to specialized tools"]
     }
   },
   {
     id: 49,
-    title: "Tailor / Fashion Maker",
+    title: "Residential Painter",
     category: "Trades",
-    location: "Lagos",
-    shortDesc: "Design and tailor clothing to specifications.",
+    location: "Abuja",
+    shortDesc: "Prepare surfaces and apply paint/stain to interior and exterior homes.",
     jobType: "Full-time",
-    pay: "From 80,000 / month",
+    pay: "170,000 / month",
     longDesc: {
-      responsibilities: [
-        "Cut, sew and finish clothing to client specifications.",
-        "Take measurements and provide fitting advice.",
-        "Maintain sewing equipment and workspace.",
-        "Manage timelines for client orders."
-      ],
-      requirements: [
-        "Experience in tailoring or dressmaking",
-        "Sewing and pattern-making skills",
-        "Attention to detail",
-        "Customer service skills"
-      ],
-      benefits: [
-        "Tool and material support",
-        "Client exposure",
-        "Flexible scheduling"
-      ]
+      responsibilities: ["Power washing, scraping, and patching surfaces.", "Apply paint/stain using brushes, rollers, and sprayers.", "Maintain a clean and safe work area."],
+      requirements: ["2+ years of professional painting experience.", "Own basic hand tools.", "Excellent color matching skills."],
+      benefits: ["Bonuses for project completion ahead of schedule", "Paid company holidays", "Team-oriented work environment"]
     }
   },
   {
     id: 50,
-    title: "Cleaner / Janitor",
+    title: "Facilities Maintenance Technician",
     category: "Trades",
     location: "Lagos",
-    shortDesc: "Maintain cleanliness and sanitation of office or facility spaces.",
+    shortDesc: "Handle general repairs and upkeep for a large corporate office building.",
     jobType: "Full-time",
-    pay: "From 50,000 / month",
+    pay: "240,000 / month",
     longDesc: {
-      responsibilities: [
-        "Perform cleaning tasks across assigned areas.",
-        "Manage cleaning supplies and equipment.",
-        "Follow health and safety protocols.",
-        "Report maintenance issues to supervisors."
-      ],
-      requirements: [
-        "Experience in cleaning or facility maintenance",
-        "Reliable and punctual",
-        "Basic knowledge of cleaning chemicals and safety",
-        "Team player"
-      ],
-      benefits: [
-        "Stable employment",
-        "Training on safety",
-        "Overtime pay"
-      ]
+      responsibilities: ["Perform minor electrical, plumbing, and carpentry repairs.", "Conduct preventative maintenance checks.", "Respond to facility repair requests."],
+      requirements: ["Broad knowledge across multiple trades.", "3+ years of facilities maintenance experience.", "Certification in a relevant trade is a plus."],
+      benefits: ["Generous paid time off", "Direct deposit pay", "Company-provided uniform and PPE"]
     }
   }
 ];
-
-export default jobs;

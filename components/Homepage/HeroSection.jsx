@@ -1,4 +1,5 @@
 import Button from "@/ui/Buttons"
+import Link from "next/link"
 
 const HeroSection = () => {
   return (
@@ -16,14 +17,17 @@ const HeroSection = () => {
                     , You Derserve
                  </h1>
                  <span>
-                    Find the perfect job that matches your skills and passion with ovver 10,000
+                    Find the perfect job that matches your skills and passion with over 10,000
                     job listings from top companies around the world.
                     <div>Your dream career is just a click away! Start 
                     your journey toward success today.</div>
                  </span>
                  </div>
 
-                 <Button>Search jobs</Button>
+                 <Link href="/jobs">
+                            <Button>Search jobs</Button>
+                         </Link>
+
 
         </div>
       </div>
