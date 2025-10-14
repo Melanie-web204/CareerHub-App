@@ -33,12 +33,12 @@ export default function SearchBar({ placeholder = "Search...", onSearch }) {
 				value={searchTerm}
 				onChange={handleInputChange}
 				placeholder={placeholder}
-				className="flex-1 bg-transparent outline-none text-white placeholder-gray-400"
+				className="flex-1 bg-transparent outline-none text-black placeholder-gray-400"
 				autoComplete="off"
 			/>
 			<button
 				type="submit"
-				className="ml-2 px-4 py-1 rounded-lg bg-purple-600 text-white font-semibold shadow transition-all duration-200 hover:bg-blue-700 focus:outline-none"
+				className="ml-2 px-4 py-1 rounded-lg bg-purple-600 text-white font-semibold shadow transition-all duration-200 focus:outline-none"
 			>
 				Search
 			</button>

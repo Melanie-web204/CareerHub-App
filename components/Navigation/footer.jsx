@@ -22,7 +22,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white mt-16 shadow-2xl">
+    <footer className="bg-gray-900 text-white shadow-2xl">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         
         
@@ -94,7 +94,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="py-2 px-4 bg-purple-500 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 shadow-md"
+                className="py-2 px-4 bg-purple-500 rounded-lg font-semibold transition duration-300 shadow-md"
               >
                 Subscribe
               </button>

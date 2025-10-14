@@ -23,10 +23,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className}  ${robotoSlab.className} antialiased`}>
+        className={`${inter.className}  ${robotoSlab.className} antialiased min-h-screen flex flex-col`}>
         <Navbar />
+        <main className="flex-grow">
         {children}
         <Footer />
+        </main>
       </body>
     </html>
   );

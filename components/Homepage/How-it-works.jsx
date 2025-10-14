@@ -4,7 +4,7 @@ import guides from "../data/guides";
 
 export default function HowItWorks() {
   return (
-    <section className="relative py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 bg-gray-900 overflow-hidden">
+    <section className="py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 bg-gray-900 overflow-hidden">
       <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white text-center mb-8 sm:mb-14">
         How <span className="text-purple-500">CareerHub</span> Works
       </h2>
@@ -14,7 +14,7 @@ export default function HowItWorks() {
           <div
             key={i}
             className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md
-                       hover:shadow-lg hover:shadow-[#1E90FF]/30 transition text-center"
+                       hover:shadow-lg hover:shadow-purple-500/40 transition text-center"
           >
             <div
               className="flex items-center justify-center w-16 h-16 mx-auto mb-6 

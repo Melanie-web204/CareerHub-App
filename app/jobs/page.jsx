@@ -8,6 +8,7 @@ import JobCard from "@/ui/jobCard";
 import { jobs } from "@/components/data/jobsData";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
+
 const ITEMS_PER_PAGE = 9;
 
 export default function JobsPage() {
@@ -45,7 +46,7 @@ export default function JobsPage() {
     <div className="min-h-screen bg-[url('/hero.png')] text-black">
       <MaxWidthContainer>
         <div className="flex flex-col items-center justify-center text-center py-20">
-          <h1 className="text-12xl sm:text-6xl md:text-7xl font-bold max-w-4xl landing-tight">
+          <h1 className="text-6xl sm:text-6xl md:text-7xl font-bold max-w-4xl landing-tight">
             Discover your next opportunity
           </h1>
           <p className="mt-4 text-lg text-black max-w-2xl">
@@ -61,7 +62,7 @@ export default function JobsPage() {
           </div>
         </div>
 
-        {/* Job Listings: Render the list of jobs for the current page. If there are jobs, map over currentJobs and render a JobCard for each. If not, show a 'no jobs found' message. */}
+
         <main className="p-8">
           <h2 className="text-center text-3xl font-bold mb-8">Job Listings</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
@@ -74,7 +75,7 @@ export default function JobsPage() {
                 No jobs found matching your criteria.
               </p>
             )}
-          </div>
+          </div> 
 
           {totalPages > 1 && (
             <div className="flex justify-center items-center mt-10 space-x-4">

@@ -14,11 +14,11 @@ export default function Whychooseus() {
           <div
             key={i}
             className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md
-                       hover:shadow-lg hover:shadow-[#1E90FF]/30 transition text-center"
+                       hover:shadow-lg hover:shadow-purple-500/30 transition text-center"
           >
             <div
               className="flex items-center justify-center w-16 h-16 mx-auto mb-6 
-                           rounded-full bg-[#1E90FF]/10 border border-[#1E90FF]/20 text-white"
+                           rounded-full bg-[#1E90FF]/10 text-white"
             >
               <Icon size={32} />
             </div>

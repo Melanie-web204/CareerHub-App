@@ -119,7 +119,27 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Show pointer cursor for common interactive elements across the site */
+  a,
+  button,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  .btn,
+  .button,
+  label[for] {
+    cursor: pointer;
+  }
+
+  /* Keep text inputs and textareas with the text cursor */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    cursor: text;
+  }
 }
 .font-slab {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }

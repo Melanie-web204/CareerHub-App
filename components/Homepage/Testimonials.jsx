@@ -13,8 +13,8 @@ export default function Testimonials() {
         {feedbacks.map((t, i) => (
           <div
             key={i}
-            className="flex-1 p-4 sm:p-6 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 
-                       backdrop-blur-lg hover:shadow-md hover:shadow-[#1E90FF]/20 transition"
+            className="flex-1 p-4 sm:p-6 rounded-xl sm:rounded-2xl bg-white/5 
+                       backdrop-blur-lg hover:shadow-md hover:shadow-purple-500/30 transition"
           >
             <p className="text-gray-300 italic mb-2 sm:mb-4">{t.text}</p>
             <h4 className="text-xs sm:text-sm font-semibold text-purple-500">{t.name}</h4>

@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function CTAsection() {
   return (
-    <section className="relative py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 bg-gray-900">
+    <section className=" py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 bg-gray-900">
       <div
         className="max-w-2xl sm:max-w-3xl md:max-w-4xl mx-auto p-6 sm:p-10 text-center rounded-2xl sm:rounded-3xl bg-white/5 
-                   border border-[#1E90FF]/20 backdrop-blur-xl
-                   hover:shadow-lg hover:shadow-[#1E90FF]/40 transition"
+         backdrop-blur-xl
+                   hover:shadow-md hover:shadow-purple-500/40 transition"
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
           Want To Turn Ambition Into Action?

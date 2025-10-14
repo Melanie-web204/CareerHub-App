@@ -2,10 +2,10 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-import { DollarSign } from "lucide-react";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/ui/Card";
 import Button from "@/ui/Buttons";
+import { slugify } from "@/lib/utils";
 function JobCard({ job }) {
   if (!job) {
     return null;
@@ -13,7 +13,7 @@ function JobCard({ job }) {
 
   return (
     <Link
-      href={`/jobs/${job.id}`}
+      href={`/jobs/${job.slug ?? slugify(job.title) ?? job.id}`}
       role="button"
       aria-label={`⁠ View details for ${job.title} ⁠`}
       className="block"
@@ -22,7 +22,7 @@ function JobCard({ job }) {
         className="h-full bg-purple-400/10
                    border border-[#1E90FF]/20 backdrop-blur-xl
                    hover:shadow-lg hover:shadow-purple-600/40 transition-all duration-300 ease-in-out
-                   hover:scale-102 cursor-pointer  "
+                   hover:scale-102 cursor-pointer"
       >
         <div className="flex-grow p-4">
           <CardHeader>
@@ -39,7 +39,6 @@ function JobCard({ job }) {
             <p>{job.shortDesc}</p>
             {job.pay && (
               <div className="flex items-center mt-4 text-green-600 font-semibold text-lg">
-                <DollarSign className="w-5 h-4" />
                 <span>{job.pay}</span>
               </div>
             )}
