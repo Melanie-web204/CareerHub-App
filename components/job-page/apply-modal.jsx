@@ -55,7 +55,7 @@ export default function ApplyModal({ jobTitle }) {
           Apply Now
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-3xl bg-white/5 border border-blue-400/20 backdrop-blur-xl p-6 rounded-lg shadow-md text-white">
+      <DialogContent className="sm:max-w-3xl bg-black/70 border border-blue-400/20 backdrop-blur-xl p-5 rounded-lg shadow-md text-white">
         <DialogHeader>
           <DialogTitle>Apply for {jobTitle}</DialogTitle>
           <DialogDescription className="text-gray-400">
@@ -150,8 +150,8 @@ export default function ApplyModal({ jobTitle }) {
           <DialogFooter className="mt-4">
             <button
               type="submit"
-              className="w-full px-8 py-3 rounded-xl bg-[#1E90FF]/20 border border-[#1E90FF]/40
-              text-[#1E90FF] font-semibold backdrop-blur-md
+              className="w-full px-8 py-3 rounded-xl bg-[#1E90FF]/20 border border-[#8e18ee]/30
+              text-[#781eff] font-semibold backdrop-blur-md
               hover:bg-[#1E90FF]/30
               transition-colors duration-200 ease-in-out
               focus:outline-none"

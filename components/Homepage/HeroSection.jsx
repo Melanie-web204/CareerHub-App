@@ -24,10 +24,10 @@ const HeroSection = () => {
                  </span>
                  </div>
 
-                 <Link href="/jobs">
+                 {/* <Link href="/jobs">
                             <Button>Search jobs</Button>
                          </Link>
-
+ */}
 
         </div>
       </div>

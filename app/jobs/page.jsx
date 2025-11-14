@@ -63,7 +63,7 @@ export default function JobsPage() {
         </div>
 
 
-        <main className="p-8">
+        <main className="px-4 py-8 md:px-8">
           <h2 className="text-center text-3xl font-bold mb-8">Job Listings</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
             {currentJobs.length > 0 ? (

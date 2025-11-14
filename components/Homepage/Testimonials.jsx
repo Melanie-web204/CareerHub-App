@@ -8,6 +8,7 @@ export default function Testimonials() {
       <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white text-center mb-8 sm:mb-14">
         What People <span className="text-purple-500">Say</span>
       </h2>
+      
 
       <div className="flex flex-col md:flex-row gap-4 sm:gap-6 max-w-4xl sm:max-w-5xl md:max-w-6xl mx-auto">
         {feedbacks.map((t, i) => (

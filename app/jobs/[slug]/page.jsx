@@ -29,7 +29,7 @@ export default function JobDetailsPage({ params }) {
     .slice(0, 3);
 
   return (
-    <div className="min-h-screen bg-[url('/hero.png')] text-white font-bold p-8 md:p-16">
+    <div className="min-h-screen bg-[url('/hero.png')] text-white font-bold px-4 py-8 md:px-8 md:p-16">
       <MaxWidthContainer>
         <div className='w-full flex justify-start'>
           <Link href="/jobs" className="border bg-purple-500 p-4 rounded-2xl hover:underline mb-12 block">
@@ -41,11 +41,13 @@ export default function JobDetailsPage({ params }) {
           className="h-full bg-purple-400/10 
                    border border-[#1E90FF]/20 backdrop-blur-xl
                    hover:shadow-lg hover:shadow-purple-600/40 transition-all duration-300 ease-in-out
-                   hover:scale-102 cursor-pointer p-10 rounded-lg mb-12"
+                   hover:scale-102 cursor-pointer p-4 md:p-10 rounded-lg mb-12"
         >
           <div className="flex justify-between items-center mb-4">
-            <h1 className="text-3xl text-black font-bold">{job.title}</h1>
-            <ApplyModal jobTitle={job.title} />
+            <h1 className="text-xl md:text-3xl text-black font-bold">{job.title}</h1>
+            <div className='max-md:hidden'>
+              <ApplyModal jobTitle={job.title} />
+            </div>
           </div>
 
           <p className="text-md text-gray-900 mb-4">
@@ -68,6 +70,9 @@ export default function JobDetailsPage({ params }) {
                   </ul>
                 </div>
               ))}
+              <div className="md:hidden">
+                <ApplyModal jobTitle={job.title} />
+              </div>
           </div>
         </div>
 
